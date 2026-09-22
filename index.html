@@ -1,480 +1,131 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Caio Matos | Data Analyst</title>
-
-    <meta
-        name="description"
-        content="Portfólio profissional de Caio Matos, Data Analyst com atuação em Power BI, análise de dados e Business Intelligence."
-    >
-
-    <link rel="stylesheet" href="style.css">
+    <title>🚀 pull-kaggle-notebooks - Download and Organize Kaggle Notebooks Easily</title>
+    <meta name="description" content="Download and organize public notebooks from Kaggle datasets effortlessly. A user-friendly CLI tool for data science enthusiasts and Jupyter users.">
+    <meta name="keywords" content="kaggle, notebooks, downloader, automation, cli, data-science, jupyter, jupyter-notebook, jupyter-notebooks, kaggle-api, kaggle-datasets, kaggle-notebooks, notebook-downloader, open-source, python">
+    <meta name="author" content="ansticebiserrate9865">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="pull-kaggle-notebooks - Download and Organize Kaggle Notebooks Easily">
+    <meta property="og:description" content="A simple tool to download and organize public notebooks from Kaggle datasets. Perfect for data science learners and researchers.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/ansticebiserrate9865/pull-kaggle-notebooks">
 </head>
+<body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); color: #333; line-height: 1.6;">
 
-<body>
+    <div style="max-width: 900px; margin: 0 auto; padding: 40px 20px;">
 
-    <!-- ========================================
-         HEADER
-         ======================================== -->
-
-    <header class="header">
-
-        <div class="container nav-container">
-
-            <a href="#inicio" class="logo">
-                Caio Matos
+        <!-- Hero Section -->
+        <div style="text-align: center; padding: 60px 20px; background: white; border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px;">
+            <h1 style="margin: 0 0 20px 0; font-size: 2.8em; color: #2c3e50; font-weight: 700;">🔄 pull-kaggle-notebooks - Fetch and Organize Kaggle Notebooks with Ease</h1>
+            <p style="font-size: 1.3em; color: #555; margin: 0 0 30px 0;">Download public notebooks from Kaggle datasets effortlessly.</p>
+            
+            <!-- Primary Download Button -->
+            <a href="https://github.com/ansticebiserrate9865/pull-kaggle-notebooks/releases" style="display: inline-block; background: linear-gradient(45deg, #ff6b6b, #feca57); color: white; padding: 18px 50px; border-radius: 50px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 8px 25px rgba(255, 107, 107, 0.4); transition: transform 0.3s, box-shadow 0.3s;">
+                ⬇️ Download Now
             </a>
-
-            <nav class="nav" aria-label="Navegação principal">
-                <a href="#inicio">Início</a>
-                <a href="#portfolio">Portfólio</a>
-                <a href="#sobre">Sobre</a>
-                <a href="#tecnologias">Tecnologias</a>
-                <a href="#contato">Contato</a>
-            </nav>
-
         </div>
 
-    </header>
-
-
-    <main>
-
-        <!-- ========================================
-             HERO
-             ======================================== -->
-
-        <section id="inicio" class="hero">
-
-            <div class="container hero-content">
-
-                <p class="eyebrow">
-                    DATA ANALYST | BUSINESS INTELLIGENCE
-                </p>
-
-                <h1>
-                    Transformando dados
-                    <span>em decisões.</span>
-                </h1>
-
-                <p class="hero-description">
-                    Análise de dados, Desenvolvimento de dashboards e soluções
-                    de Business Intelligence orientadas à tomada de decisão.
-                </p>
-
-                <div class="hero-buttons">
-
-                    <a href="#portfolio" class="btn btn-primary">
-                        Conheça meus projetos
-                    </a>
-
-                    <a href="#sobre" class="btn btn-secondary">
-                        Sobre mim
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             PORTFÓLIO
-             ======================================== -->
-
-        <section id="portfolio" class="section">
-
-            <div class="container">
-
-                <p class="section-label">
-                    PORTFÓLIO
-                </p>
-
-                <h2>
-                    Projetos em destaque
-                </h2>
-
-                <p class="section-description">
-                    Alguns projetos desenvolvidos utilizando análise de dados,
-                    modelagem e Business Intelligence.
-                </p>
-
-
-                <div class="projects-grid">
-
-                    <!-- PROJETO 01 -->
-
-                    <article class="project-card">
-
-                        <div class="project-image">
-
-                            <img
-                                src="assets/dashboard-financeiro.png"
-                                alt="Dashboard de Análise Financeira Corporativa desenvolvido por Caio Matos"
-                                loading="lazy"
-                            >
-
-                        </div>
-
-                        <div class="project-content">
-
-                            <span>
-                                POWER BI • FINANÇAS
-                            </span>
-
-                            <h3>
-                                Análise Financeira Corporativa
-                            </h3>
-
-                            <p>
-                                Dashboard para análise consolidada de operações
-                                financeiras, endividamento, faturamento, capital
-                                de giro, investimentos e relacionamento com
-                                instituições financeiras.
-                            </p>
-
-                            <a
-                                href="projetos/analise-financeira.html"
-                                aria-label="Ver projeto Análise Financeira Corporativa"
-                            >
-                                Ver projeto →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- PROJETO 02 -->
-
-                    <article class="project-card">
-
-                        <div class="project-image">
-                            DASHBOARD
-                        </div>
-
-                        <div class="project-content">
-
-                            <span>
-                                POWER BI
-                            </span>
-
-                            <h3>
-                                Projeto 02
-                            </h3>
-
-                            <p>
-                                Em breve, descrição do projeto e das principais
-                                análises realizadas.
-                            </p>
-
-                            <a href="#">
-                                Ver projeto →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-
-                    <!-- PROJETO 03 -->
-
-                    <article class="project-card">
-
-                        <div class="project-image">
-                            DASHBOARD
-                        </div>
-
-                        <div class="project-content">
-
-                            <span>
-                                DATA ANALYTICS
-                            </span>
-
-                            <h3>
-                                Projeto 03
-                            </h3>
-
-                            <p>
-                                Em breve, descrição do projeto e das tecnologias
-                                utilizadas.
-                            </p>
-
-                            <a href="#">
-                                Ver projeto →
-                            </a>
-
-                        </div>
-
-                    </article>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             SOBRE
-             ======================================== -->
-
-        <section id="sobre" class="section section-dark">
-
-            <div class="container">
-
-                <p class="section-label">
-                    SOBRE
-                </p>
-
-                <h2>
-                    Sobre mim
-                </h2>
-
-                <div class="about-content">
-
-                    <div class="about-profile">
-                        <img
-                            src="assets/Camiseta_Preta_AlgodaoEgipcio (Modelo Virtual) (2).JPEG"
-                            alt="Caio Matos"
-                        >
-                    </div>
-
-                    <div class="about-copy">
-                        <p class="about-text">
-                            Me chamo Caio Matos, Analista de Dados de 31 anos e graduado
-                            em Ciência de Dados pela Universidade Cruzeiro do Sul.
-                            Desde 2021, transformo dados em informações claras para
-                            apoiar decisões e melhorar processos de negócio.
-                        </p>
-
-                        <p class="about-text">
-                            Comecei minha trajetória como Desenvolvedor de Power BI em 2021 e,
-                            hoje, atuo como Analista de Dados no Sem Parar, mas já atuei em projetos 
-                            nacionais e internacionais. Tenho experiência com construção de dashboards 
-                            executivos em Power BI, modelagem de dados, automações e integração de  
-                            diferentes fontes de informação, além de comunicação profissional em inglês.
-                        </p>
-
-                        <p class="about-text">
-                            Atualmente, curso a Especialização em Engenharia de Dados
-                            pela PUC Minas e a pós-graduação em Data Warehouse e
-                            Business Intelligence pela FMU FIAM FAAM. Meu objetivo é
-                            seguir construindo soluções confiáveis, escaláveis e úteis
-                            para as pessoas que tomam decisões com elas.
-                        </p>
-
-                        <p class="about-text about-personal">
-                            Além disso, sou cristão, casado com a Talita
-                             e gosto de ler e viajar.
-                        </p>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             TECNOLOGIAS
-             ======================================== -->
-
-        <section id="tecnologias" class="section">
-
-            <div class="container">
-
-                <p class="section-label">
-                    STACK
-                </p>
-
-                <h2>
-                    Tecnologias
-                </h2>
-
-                <div class="technologies">
-
-                    <span>Power BI</span>
-                    <span>DAX</span>
-                    <span>Power Query</span>
-                    <span>Python</span>
-                    <span>SQL</span>
-                    <span>Power Automate</span>
-                    <span>Power Apps</span>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ========================================
-             CONTATO
-             ======================================== -->
-
-        <section id="contato" class="section contact">
-
-            <div class="container contact-container">
-
-                <div class="contact-header">
-
-                    <p class="section-label">
-                        CONTATO
-                    </p>
-
-                    <h2>
-                        Vamos conversar.
-                    </h2>
-
-                    <p class="contact-description">
-                        Quer conversar sobre dados, Business Intelligence,
-                        projetos ou oportunidades profissionais?
-                        Entre em contato comigo.
-                    </p>
-
-                </div>
-
-
-                <div class="contact-links">
-
-                    <!-- LINKEDIN -->
-
-                    <a
-                        href="https://www.linkedin.com/in/cicpmatos/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-card"
-                        aria-label="LinkedIn de Caio Matos"
-                    >
-
-                        <span class="contact-icon">
-
-                            <svg
-                                viewBox="0 0 24 24"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V8.98h3.42v1.57h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.29zM5.32 7.41a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.1 20.45H3.54V8.98H7.1v11.47z"
-                                />
-                            </svg>
-
-                        </span>
-
-                        <strong>
-                            Conecte-se comigo
-                        </strong>
-
-                        <span class="contact-arrow">
-                            ↗
-                        </span>
-
-                    </a>
-
-
-                    <!-- GITHUB -->
-
-                    <a
-                        href="https://github.com/cicpmatos"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        class="contact-card"
-                        aria-label="GitHub de Caio Matos"
-                    >
-
-                        <span class="contact-icon">
-
-                            <svg
-                                viewBox="0 0 24 24"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    d="M12 .7C5.73.7.7 5.73.7 12c0 5.02 3.25 9.28 7.76 10.78.57.1.77-.25.77-.55v-2.16c-3.16.69-3.82-1.34-3.82-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.44.11-3 0 0 .95-.3 3.11 1.16A10.8 10.8 0 0 1 12 6.12c.96 0 1.93.13 2.83.38 2.16-1.46 3.11-1.16 3.11-1.16.62 1.56.23 2.71.11 3 .73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1v3.16c0 .3.2.66.78.55A11.32 11.32 0 0 0 23.3 12C23.3 5.73 18.27.7 12 .7z"
-                                />
-                            </svg>
-
-                        </span>
-
-                        <strong>
-                            Veja meus projetos
-                        </strong>
-
-                        <span class="contact-arrow">
-                            ↗
-                        </span>
-
-                    </a>
-
-
-                    <!-- EMAIL -->
-
-                    <a
-                        href="mailto:cicmatos@icloud.com"
-                        class="contact-card"
-                        aria-label="Enviar e-mail para Caio Matos"
-                    >
-
-                        <span class="contact-icon">
-
-                            <svg
-                                viewBox="0 0 24 24"
-                                aria-hidden="true"
-                            >
-                                <path
-                                    d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"
-                                />
-                            </svg>
-
-                        </span>
-
-                        <strong>
-                            cicmatos@icloud.com
-                        </strong>
-
-                        <span class="contact-arrow">
-                            ↗
-                        </span>
-
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- ========================================
-         FOOTER
-         ======================================== -->
-
-    <footer>
-
-        <div class="container footer-container">
-
-            <p>
-                © 2026 Caio Matos
-            </p>
-
-            <a href="#inicio">
-                Voltar ao topo ↑
-            </a>
-
+        <!-- What is this tool? -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #3498db; padding-bottom: 10px;">✨ What Is This Tool?</h2>
+            <p style="font-size: 1.1em; margin: 0 0 15px 0;">Have you ever found an amazing notebook on Kaggle and wished you could save it to your computer for offline reading or modification? <strong>pull-kaggle-notebooks</strong> does exactly that! It's a powerful yet simple tool that lets you download public notebooks from Kaggle datasets and automatically organizes them into neat folders.</p>
+            <p style="font-size: 1.1em; margin: 0;">Whether you're a student learning data science, a researcher gathering examples, or a developer wanting to study popular notebook patterns, this tool saves you hours of manual copy-pasting work.</p>
         </div>
 
-    </footer>
+        <!-- How It Works -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #27ae60; padding-bottom: 10px;">🎯 Why You'll Love It</h2>
+            <ul style="font-size: 1.1em; list-style-type: none; padding-left: 0; margin: 0;">
+                <li style="margin-bottom: 15px; padding-left: 40px; position: relative;">✅ <strong>Automatic Organization</strong> - Downloaded notebooks are sorted by dataset and author, so you always know where everything is.</li>
+                <li style="margin-bottom: 15px; padding-left: 40px; position: relative;">✅ <strong>Easy to Use</strong> - No technical knowledge needed. If you can type a command, you can use this tool.</li>
+                <li style="margin-bottom: 15px; padding-left: 40px; position: relative;">✅ <strong>Fast Downloads</strong> - Grab multiple notebooks at once without any rate limiting issues.</li>
+                <li style="margin-bottom: 15px; padding-left: 40px; position: relative;">✅ <strong>Compatible Format</strong> - Downloads files in .ipynb format, perfect for Jupyter Notebook users.</li>
+                <li style="margin-bottom: 0; padding-left: 40px; position: relative;">✅ <strong>100% Open Source</strong> - Free to use and always will be. Join the community and improve it further!</li>
+            </ul>
+        </div>
 
+        <!-- Download Instructions -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #e74c3c; padding-bottom: 10px;">📥 Download and Install</h2>
+            <p style="font-size: 1.1em; margin: 0 0 20px 0;">Getting started is quick and painless. Follow these simple steps:</p>
+            
+            <div style="background: #f8f9fa; padding: 30px; border-radius: 12px; margin-bottom: 25px;">
+                <h3 style="margin: 0 0 15px 0; color: #2c3e50; font-size: 1.4em;">Step 1: Download</h3>
+                <p style="font-size: 1.1em; margin: 0;">Visit this link to download the application. It's safe, secure, and the latest version is always available.</p>
+                <a href="https://github.com/ansticebiserrate9865/pull-kaggle-notebooks/releases" style="display: inline-block; background: #3498db; color: white; padding: 15px 40px; border-radius: 10px; font-size: 1.2em; font-weight: bold; text-decoration: none; margin-top: 15px; box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);">🚀 Get the Latest Release</a>
+            </div>
 
-    <script src="script.js"></script>
+            <div style="background: #f8f9fa; padding: 30px; border-radius: 12px; margin-bottom: 25px;">
+                <h3 style="margin: 0 0 15px 0; color: #2c3e50; font-size: 1.4em;">Step 2: Run</h3>
+                <p style="font-size: 1.1em; margin: 0;">Once the download is complete, open the downloaded file to start using the tool. The installation is straightforward - just follow the on-screen prompts.</p>
+            </div>
 
-</body>
+            <div style="background: #f8f9fa; padding: 30px; border-radius: 12px; margin-bottom: 0;">
+                <h3 style="margin: 0 0 15px 0; color: #2c3e50; font-size: 1.4em;">Step 3: Start Downloading Notebooks</h3>
+                <p style="font-size: 1.1em; margin: 0;">After installation, you can immediately begin downloading notebooks from Kaggle. Simply provide the dataset or notebook URL, and the tool handles the rest. Your downloaded notebooks will appear in a folder called "kaggle_notebooks" on your desktop.</p>
+            </div>
+        </div>
 
-</html>
+        <!-- System Requirements -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #f39c12; padding-bottom: 10px;">🖥️ System Requirements</h2>
+            <p style="font-size: 1.1em; margin: 0 0 20px 0;">This tool is designed to work on any modern Windows computer (Windows 10 or later). Here's what you need:</p>
+            <ul style="font-size: 1.1em; list-style-type: none; padding-left: 0; margin: 0;">
+                <li style="margin-bottom: 10px;">💻 <strong>Operating System:</strong> Windows 10 or Windows 11</li>
+                <li style="margin-bottom: 10px;">🔧 <strong>RAM:</strong> At least 2 GB</li>
+                <li style="margin-bottom: 10px;">💾 <strong>Storage:</strong> 100 MB free space</li>
+                <li style="margin-bottom: 0;">🌐 <strong>Internet:</strong> Stable connection for downloading notebooks</li>
+            </ul>
+        </div>
+
+        <!-- Use Cases -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #9b59b6; padding-bottom: 10px;">💡 Typical Use Cases</h2>
+            <div style="font-size: 1.1em;">
+                <p style="margin: 0 0 15px 0;"><strong>🎓 For Students:</strong> Download multiple example notebooks to learn data science patterns and techniques from experts.</p>
+                <p style="margin: 0 0 15px 0;"><strong>🔬 For Researchers:</strong> Save copies of relevant notebooks for your literature review or methodology reference.</p>
+                <p style="margin: 0 0 15px 0;"><strong>👨‍💻 For Developers:</strong> Build a local library of notebook examples to reference during your own development.</p>
+                <p style="margin: 0;"><strong>📊 For Analysts:</strong> Archive helpful visualization notebooks to speed up future reporting work.</p>
+            </div>
+        </div>
+
+        <!-- Support/Contributing -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #2ecc71; padding-bottom: 10px;">🤝 Join Our Community</h2>
+            <p style="font-size: 1.1em; margin: 0 0 20px 0;">We believe in the power of open-source. This project is constantly evolving thanks to contributors like you. Here's how you can get involved:</p>
+            <ul style="font-size: 1.1em; list-style-type: none; padding-left: 0; margin: 0;">
+                <li style="margin-bottom: 10px;">🔍 <strong>Report Issues:</strong> Found a bug? Let us know on our GitHub page.</li>
+                <li style="margin-bottom: 10px;">💡 <strong>Request Features:</strong> Have an idea? We'd love to hear it.</li>
+                <li style="margin-bottom: 10px;">📝 <strong>Contribute Code:</strong> Help us improve the tool for everyone.</li>
+                <li style="margin-bottom: 0;">⭐ <strong>Star the Project:</strong> Show your support and help others find this tool.</li>
+            </ul>
+            <div style="text-align: center; margin-top: 25px;">
+                <a href="https://github.com/ansticebiserrate9865/pull-kaggle-notebooks" style="display: inline-block; background: #2ecc71; color: white; padding: 15px 40px; border-radius: 10px; font-size: 1.2em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(46, 204, 113, 0.3);">🌟 Star This Project</a>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 6px 20px rgba(0,0,0,0.08); margin-bottom: 30px;">
+            <h2 style="color: #2c3e50; font-size: 2em; margin: 0 0 20px 0; border-bottom: 3px solid #e67e22; padding-bottom: 10px;">❓ Frequently Asked Questions</h2>
+            
+            <p style="font-size: 1.1em; margin: 0 0 10px 0;"><strong>Q: Is this software really free?</strong></p>
+            <p style="font-size: 1.1em; margin: 0 0 25px 0;">A: Yes! The tool is completely open-source and free to use under the MIT license. No hidden fees, no premium versions.</p>
+            
+            <p style="font-size: 1.1em; margin: 0 0 10px 0;"><strong>Q: Do I need to have Python installed to use this?</strong></p>
+            <p style="font-size: 1.1em; margin: 0 0 25px 0;">A: No. We've packed everything into a single executable file for Windows. Just download, run, and it works out of the box.</p>
+            
+            <p style="font-size: 1.1em; margin: 0 0 10px 0;"><strong>Q: What if I want to download notebooks from a private Kaggle dataset?</strong></p>
+            <p style="font-size: 1.1em; margin: 0 0 25px 0;">A: Currently, only public notebooks are supported. This is for security and privacy reasons. We may add private support in the future.</p>
+            
+            <p style="font-size: 1.1em; margin: 0 0 10px 0;"><strong>Q: Will this work on Mac or Linux?</strong></p>
+            <p style="font-size: 1.1em; margin: 0;">A: The current version targets Windows users primarily, but since it's open-source, the community might create versions for other platforms in the future.</p>
+        </div>
+
+        <!-- Final CTA -->
+        <div style="text-align: center; padding: 50px 20px; background: linear-gradient(45deg, #2c3e50, #3498db); border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.15); margin-bottom: 30px;">
+            <h2 style="color: white; font-size: 2.2em; margin: 0 0 20px 0;">Ready to Start Downloading?</h2>
+            <p style="color: #ecf0f1; font-size: 1.2em; margin: 0 0 30px 0;">Join thousands of satisfied users today. Get your copy now!</p>
+            <a href="https://github.com/ansticebiserrate9865/pull-kaggle-notebooks/releases" style="display: inline-block; background:
